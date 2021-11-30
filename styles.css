@@ -1,0 +1,216 @@
+/* comment notation */
+
+body {
+    background-color: #fff0f3;
+}
+
+.top {
+  background-color: #daf5fe;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+    padding: 1.8rem;
+    color: #2e2d2b
+  }
+
+img {
+  padding-top: 40%;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.menu-container {
+  list-style: none;
+  display: flex;
+}
+
+.menu-item {
+  background: pink;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  margin: 2%;
+  width: 30%;
+  padding: 1rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Source+Code+Pro&display=swap');
+
+.menu-item a {
+  color: black;
+  font-family: 'Source Code Pro', monospace;
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  background: lightgrey;
+  transition: all 350ms;
+}
+
+footer {
+  padding: 1rem;
+  text-align: center;
+  background: thistle;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+form {
+  width: 95%;
+  height: auto;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #e3e3e3;
+  border-radius: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid transparent;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #f5f5f5;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
+  caret-color: purple;
+  transition: all 350ms;
+}
+
+input::placeholder, textarea::placeholder {
+  color: black;
+}
+
+input:hover, 
+input:focus, textarea:hover, textarea:focus {
+  border: 2px solid #80ffdb;
+}
+
+label:required {
+  color: yellow;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 1rem 3rem;
+  color: black;
+  background: linear-gradient(to right, #9bf6ff 20%, #fdffb6);
+  font-size: 1.25rem;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  margin-bottom: 10px;
+  transition: all 0.5s ease;
+  
+}
+
+button:hover, button:focus {
+  transition: all 0.5s ease;
+  background: #fdffb6;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  padding: 2rem;
+  background-color: #fec5bb;
+}
+
+@media screen and (min-width: 900px) {
+
+  .layout {
+    display: flex;
+    justify-content: center;
+}
+
+.abox {
+    align-self: flex-start;
+    width: 20%;
+}
+
+.bbox {
+    align-self: flex-end;
+    width: 100%;
+}
+
+.menu-container {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.menu-item {
+  width: 100%;
+}
+
+.word-flex {
+  display: flex;
+  justify-content: space-around;
+  gap: 12px;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+img {
+  display: flex;
+  flex-grow: 10;
+  padding-top: 60%;
+}
+
+}
+
+  
+
